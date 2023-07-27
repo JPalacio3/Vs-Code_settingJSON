@@ -20,6 +20,20 @@ Si prefieres una forma más directa de acceder al archivo `settings.json`, tambi
 
 Esto abrirá directamente el archivo `settings.json` en el editor de VS Code.
 
+### EXTENSIONES: MARKETPLACE
+Nombre: temaChulo
+ID: Herian94.rainbowtheme
+Descripción: Theme for Visual Studio Code
+Versión: 0.0.4
+Editor: Herian94
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=Herian94.rainbowtheme
+
+Nombre: Material Icon Theme
+ID: PKief.material-icon-theme
+Descripción: Material Design Icons for Visual Studio Code
+Versión: 4.29.0
+Editor: Philipp Kief
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 
 
 ![Settings Code-image](images/SETTINGS.JSON.png)
