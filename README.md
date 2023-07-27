@@ -22,10 +22,10 @@ Esto abrirá directamente el archivo `settings.json` en el editor de VS Code.
 
 
 
-![Settings Code-image](SETTINGS.JSON.png)
+![Settings Code-image](settings/SETTINGS.JSON.png)
 
-![PHP Code-image](PHP.png)
-![JS Code-image](JS.png)
-![PYTHON Code-image](PYTHON.png)
-![CSS Code-image](CSS.png)
-![HTML Code-image](HTML.png)
+![PHP Code-image](images/PHP.png)
+![JS Code-image](images/JS.png)
+![PYTHON Code-image](images/PYTHON.png)
+![CSS Code-image](images/CSS.png)
+![HTML Code-image](images/HTML.png)
