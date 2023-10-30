@@ -15,8 +15,10 @@
   "terminal.integrated.enablePersistentSessions": false,
   "explorer.confirmDragAndDrop": false,
   "javascript.format.insertSpaceAfterCommaDelimiter": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
   "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
