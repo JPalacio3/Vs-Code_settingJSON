@@ -14,9 +14,9 @@
   "terminal.integrated.tabs.showActiveTerminal": "always",
   "terminal.integrated.enablePersistentSessions": false,
   "explorer.confirmDragAndDrop": false,
-  "javascript.format.insertSpaceAfterCommaDelimiter": false,
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
-  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
@@ -44,10 +44,8 @@
   "editor.minimap.showSlider": "always",
   "editor.suggest.preview": true,
   "files.trimTrailingWhitespace": true,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.indent": 4,
   "git.autofetch": true,
-  "editor.minimap.enabled": false,
   "workbench.editorAssociations": {
     "*.mp4": "default",
     "*.db": "default"
@@ -61,20 +59,20 @@
   "workbench.editor.enablePreviewFromQuickOpen": true,
   "workbench.editor.limit.enabled": true,
   "terminal.integrated.cursorWidth": 2,
-  "terminal.integrated.fontFamily": "Anonymous Pro , Dank Mono",
+  "terminal.integrated.fontFamily": "Monaco, Roboto Mono, Helvetica, Dank Mono",
   "terminal.integrated.fontWeight": 600,
   "editor.padding.bottom": 5,
   "editor.padding.top": 2,
   "editor.scrollbar.scrollByPage": true,
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features",
   },
   "terminal.integrated.enableBell": true,
   "terminal.integrated.defaultLocation": "view",
   "terminal.integrated.drawBoldTextInBrightColors": true,
   "terminal.integrated.shellIntegration.decorationsEnabled": "both",
   "editor.accessibilityPageSize": 500,
-  "editor.defaultFormatter": "VisualStudioExptTeam.vscodeintellicode",
+  "editor.defaultFormatter": "formulahendry.auto-close-tag",
   "editor.scrollBeyondLastLine": false,
   "editor.showFoldingControls": "always",
   "editor.wordWrapColumn": 150,
@@ -83,49 +81,49 @@
   },
   "editor.fontSize": 13,
   "terminal.integrated.fontSize": 12,
-  "editor.fontFamily": "Anonymous Pro ",
+  "editor.fontFamily": "poppins, Monserrat",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": "punctuation.definition.string.begin",
         "settings": {
-          "foreground": "#ffd986"
+          "foreground": "#ffd986" // Color para las comillas de apertura
         }
       },
       {
         "scope": "punctuation.definition.string.end",
         "settings": {
-          "foreground": "#ffd986"
+          "foreground": "#ffd986" // Color para las comillas de cierre
         }
       },
       {
         "scope": "keyword.operator",
         "settings": {
-          "foreground": "#ff0000"
+          "foreground": "#ff0000" // Color para el símbolo &
         }
       },
       {
         "scope": "keyword.operator.assignment",
         "settings": {
-          "foreground": "#ff7300"
+          "foreground": "#ff7300" // Color para el símbolo &
         }
       },
       {
         "scope": "punctuation.separator.colon",
         "settings": {
-          "foreground": "#ff9100"
+          "foreground": "#ff9100" // Color para el símbolo :
         }
       },
       {
         "scope": "punctuation.terminator.statement",
         "settings": {
-          "foreground": "#ffbb00"
+          "foreground": "#ffbb00" // Color para el símbolo ;
         }
       },
       {
         "scope": "punctuation.separator.continuation",
         "settings": {
-          "foreground": "#ffe600"
+          "foreground": "#ffe600" // Color para el símbolo ,
         }
       },
       {
@@ -170,8 +168,8 @@
     "terminal.ansiBrightCyan": "#ffc400",
     "errorForeground": "#ff0000",
     "editor.renderIndentGuides": true,
-    "editorIndentGuide.background": "#eeff00",
-    "editorIndentGuide.activeBackground": "#0deba8",
+    "editorIndentGuide.background1": "#2726267a",
+    "editorIndentGuide.activeBackground1": "#03ffea",
     "editorIndentGuide.activeBackgroundBlend": 0.3,
     "scope": [
       "emphasis",
@@ -209,7 +207,6 @@
   "workbench.preferredLightColorTheme": "temaChulo",
   "css.format.spaceAroundSelectorSeparator": true,
   "less.format.spaceAroundSelectorSeparator": true,
-  "editor.autoIndent": "brackets",
   "editor.matchBrackets": "always",
   "editor.bracketPairColorization.enabled": true,
   "editor.stickyTabStops": true,
@@ -234,11 +231,10 @@
   "html.format.templating": true,
   "html.format.contentUnformatted": "",
   "editor.codeActionsOnSave": {},
-  "editor.hover.delay": 400,
+  "editor.hover.delay": 600,
   "editor.indentSize": "tabSize",
   "terminal.integrated.autoReplies": {},
   "settingsSync.ignoredExtensions": [],
-  "workbench.colorTheme": "temaChulo",
   "editor.unicodeHighlight.allowedLocales": {
     "es": true
   },
@@ -315,7 +311,7 @@
   "editor.cursorBlinking": "expand",
   "editor.cursorWidth": 2,
   "files.autoGuessEncoding": true,
-  "python.linting.pylintArgs": [
+  "python.linting.pylint": [
     "--load-plugins"
   ],
   "[go]": {
@@ -331,7 +327,7 @@
   "terminal.integrated.localEchoStyle": "dim",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.wrapTabs": true,
-  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "remote.downloadExtensionsLocally": true,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -339,11 +335,26 @@
   "editor.guides.bracketPairs": true,
   "editor.stickyScroll.enabled": true,
   "breadcrumbs.enabled": false,
-  "notebook.output.fontFamily": "Dank Mono",
-  "markdown.preview.fontFamily": "Dank Mono",
-  "editor.codeLensFontFamily": "Anonymous Pro , Dank Mono",
+  "notebook.output.fontFamily": "Monaco",
+  "markdown.preview.fontFamily": "Monaco",
+  "editor.codeLensFontFamily": "Monaco",
   "chat.editor.fontFamily": "Dank Mono",
   "editor.inlayHints.fontFamily": "Anonymous Pro ",
   "debug.console.fontFamily": "Anonymous Pro ",
-  "scm.inputFontFamily": "Anonymous Pro , Dank Mono"
+  "scm.inputFontFamily": "Monaco, Roboto Mono, Helvetica, Dank Mono",
+  "workbench.colorTheme": "temaChulo",
+  "workbench.preferredDarkColorTheme": "temaChulo",
+  "workbench.preferredHighContrastColorTheme": "temaChulo",
+  "workbench.iconTheme": "helium-icon-theme",
+  "redhat.telemetry.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "workbench.hover.delay": 600,
+  "indentRainbow.indentSetter": {},
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
 }
