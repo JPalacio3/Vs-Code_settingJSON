@@ -74,12 +74,12 @@
   "terminal.integrated.drawBoldTextInBrightColors": true,
   "terminal.integrated.shellIntegration.decorationsEnabled": "both",
   "editor.accessibilityPageSize": 500,
-  "editor.defaultFormatter": "formulahendry.auto-close-tag",
+  "editor.defaultFormatter": "vscode.emmet",
   "editor.scrollBeyondLastLine": false,
   "editor.showFoldingControls": "always",
   "editor.wordWrapColumn": 150,
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "vscode.configuration-editing"
   },
   "editor.fontSize": 13,
   "terminal.integrated.fontSize": 12,
@@ -347,11 +347,10 @@
   "workbench.colorTheme": "temaChulo",
   "workbench.preferredDarkColorTheme": "temaChulo",
   "workbench.preferredHighContrastColorTheme": "temaChulo",
-  "workbench.iconTheme": "helium-icon-theme",
-  "redhat.telemetry.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
   "editor.largeFileOptimizations": false,
   "[java]": {
-    "editor.defaultFormatter": "redhat.java"
+    "editor.defaultFormatter": "vscode.emmet"
   },
   "workbench.hover.delay": 600,
   "indentRainbow.indentSetter": {},
