@@ -89,13 +89,13 @@
       {
         "scope": "punctuation.definition.string.begin",
         "settings": {
-          "foreground": "#ffd986" // Color para las comillas de apertura
+          "foreground": "#ffffff" // Color para las comillas de apertura
         }
       },
       {
         "scope": "punctuation.definition.string.end",
         "settings": {
-          "foreground": "#ffd986" // Color para las comillas de cierre
+          "foreground": "#ffffff" // Color para las comillas de cierre
         }
       },
       {
@@ -133,25 +133,56 @@
         "settings": {
           "foreground": "#ffffff"
         }
+      },
+      {
+        "scope": [
+          "keyword.other.new",
+          "keyword.other",
+          "keyword.control",
+          "entity.name.function",
+          "support.function"
+        ],
+        "settings": {
+          "foreground": "#a6ff00",
+          "fontStyle": "italic bold",
+        }
+      },
+      {
+        "scope": [
+          "variable",
+          // "variable.name"
+        ],
+        "settings": {
+          "foreground": "#9900ff"
+        }
+      },
+      {
+        "scope": [
+          "keyword.other.special-method",
+          "keyword"
+        ],
+        "settings": {
+          "foreground": "#00ffff"
+        }
       }
     ]
   },
   "workbench.colorCustomizations": {
-    "list.deemphasizedForeground": "#00ffbf",
+    "list.deemphasizedForeground": "#18bb92",
     "badge.background": "#090033",
-    "tab.inactiveBackground": "#170c47",
-    "tab.activeBackground": "#0d0da7",
+    "tab.inactiveBackground": "#251b52",
+    "tab.activeBackground": "#0000ff",
     "activityBar.background": "#000016",
     "sideBar.background": "#00002b",
     "statusBar.background": "#000016",
     "dropdown.background": "#000000",
-    "dropdown.foreground": "#00c510",
+    "dropdown.foreground": "#00ff15",
     "dropdown.border": "#0077ff",
     "dropdown.listBackground": "#000000",
-    "dropdown.listForeground": "#090033",
+    "list.dropBackground": "#ff0000",
     "dropdown.listHighlightForeground": "#ff0000",
     "statusBar.foreground": "#1eff00",
-    "foreground": "#8ec8ff",
+    "foreground": "#00ffff",
     "textSeparator.foreground": "#02fa2b",
     "banner.foreground": "#03f84d",
     "list.hoverBackground": "#914508",
@@ -167,10 +198,10 @@
     "debugConsole.warningForeground": "#c00000",
     "debugConsole.errorForeground": "#ff0095",
     "terminal.ansiCyan": "#02fcdb",
-    "terminal.ansiBrightCyan": "#ffc400",
+    "terminal.ansiBrightCyan": "#ff8800",
     "errorForeground": "#ff0000",
     "editor.renderIndentGuides": true,
-    "editorIndentGuide.background1": "#2726267a",
+    "editorIndentGuide.background1": "#3b3a3a7a",
     "editorIndentGuide.activeBackground1": "#03ffea",
     "editorIndentGuide.activeBackgroundBlend": 0.3,
     "scope": [
@@ -271,7 +302,7 @@
       "italic": false
     },
     {
-      "tag": "todo",
+      "tag": "let",
       "color": "#FF8C00",
       "strikethrough": false,
       "underline": false,
