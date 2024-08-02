@@ -35,6 +35,7 @@
 	"prettier.trailingComma": "all",
 	"prettier.useTabs": true,
 	// Configuración del área de trabajo
+	"window.title": "${activeFolderShort} // ${activeEditorShort}",
 	"workbench.editor.enablePreviewFromQuickOpen": false,
 	"workbench.editor.openPositioning": "last",
 	"workbench.editor.wrapTabs": true,
@@ -155,18 +156,18 @@
 		"list.inactiveSelectionBackground": "#0e0847",
 		"list.inactiveSelectionForeground": "#02ff13",
 		"gitDecoration.modifiedResourceForeground": "#ffaa00",
-		"gitDecoration.ignoredResourceForeground": "#184176",
+		"gitDecoration.ignoredResourceForeground": "#2d80cd",
 		"menu.border": "#ffcc00",
 		"banner.foreground": "#01ff34",
 		"foreground": "#00a6ff",
-		"input.foreground": "#0f5ab5",
+		"input.foreground": "#7bb8d4",
 		"menubar.selectionForeground": "#ffaa00c0",
 		"menu.separatorBackground": "#ffcc009b",
 		"menubar.selectionBackground": "#101760",
 		"menubar.hoverForeground": "#ff0000",
 		"menubar.hoverBackground": "#00ff00",
-		"titleBar.activeForeground": "#2883d7",
-		"titleBar.inactiveForeground": "#ffffff",
+		"titleBar.activeForeground": "#00a6ff",
+		"titleBar.inactiveForeground": "#0084ff",
 	},
 	"explorer.decorations.colors": true,
 	"explorer.decorations.badges": true,
@@ -204,21 +205,21 @@
 			{
 				"scope": "punctuation.separator.colon",
 				"settings": {
-					"foreground": "#ff9100",
+					"foreground": "#ff6600",
 					"fontStyle": "bold"
 				}
 			},
 			{
 				"scope": "punctuation.terminator.statement",
 				"settings": {
-					"foreground": "#ffbb00",
+					"foreground": "#ffff00",
 					"fontStyle": "bold"
 				}
 			},
 			{
 				"scope": "punctuation.separator.continuation",
 				"settings": {
-					"foreground": "#eeff00",
+					"foreground": "#ffa200",
 					"fontStyle": "bold"
 				}
 			},
@@ -238,7 +239,7 @@
 					"support.function"
 				],
 				"settings": {
-					"foreground": "#00eaff",
+					"foreground": "#00ffea",
 					// "fontStyle": ""
 				}
 			},
@@ -248,7 +249,7 @@
 				],
 				"settings": {
 					"foreground": "#03ff03",
-					"fontStyle": "bold"
+					"fontStyle": ""
 				}
 			},
 			{
@@ -257,7 +258,7 @@
 					"keyword"
 				],
 				"settings": {
-					"foreground": "#00eaff",
+					"foreground": "#2fff00",
 					"fontStyle": "bold"
 				}
 			},
@@ -267,8 +268,8 @@
 					"comment.block.documentation"
 				],
 				"settings": {
-					"foreground": "#7282af",
-					"fontStyle": "italic bold"
+					"foreground": "#75a8d7ad",
+					"fontStyle": "italic "
 				}
 			},
 			{
@@ -280,13 +281,15 @@
 			{
 				"scope": "variable.language",
 				"settings": {
+					"foreground": "#ff7301cd",
 					"fontStyle": "bold"
 				}
 			},
 			{
 				"scope": "punctuation.definition.parenthesis",
 				"settings": {
-					"foreground": "#00ff1e"
+					"foreground": "#00ff1e",
+					// "fontStyle": "bold"
 				}
 			}
 		]
@@ -315,7 +318,7 @@
 	// Configuraciones de parejas de corchetes
 	"editor.bracketPairColorization.enabled": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.matchBrackets": "never",
+	"editor.matchBrackets": "always",
 	// Configuración de segmentación de palabras
 	"editor.wordSegmenterLocales": "es-MX",
 	// Configuraciones de edición vinculada y cierre de etiquetas
@@ -401,6 +404,10 @@
 		"**/bower_components": true,
 		"**/dist": true
 	},
-	"window.commandCenter": false,
-	"window.dialogStyle": "custom"
+	"window.dialogStyle": "custom",
+	"editor.lightbulb.enabled": "on",
+	"bladeFormatter.format.wrapLineLength": 90,
+	"bladeFormatter.format.indentInnerHtml": true,
+	"bladeFormatter.format.indentSize": 2,
+	"window.commandCenter": false
 }
