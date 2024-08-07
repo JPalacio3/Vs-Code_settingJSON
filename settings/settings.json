@@ -198,7 +198,7 @@
 			{
 				"scope": "keyword.operator.assignment",
 				"settings": {
-					"foreground": "#ff7300",
+					"foreground": "#ff6600",
 					"fontStyle": "bold"
 				}
 			},
@@ -219,7 +219,7 @@
 			{
 				"scope": "punctuation.separator.continuation",
 				"settings": {
-					"foreground": "#ffa200",
+					"foreground": "#ff6600",
 					"fontStyle": "bold"
 				}
 			},
@@ -259,7 +259,7 @@
 				],
 				"settings": {
 					"foreground": "#2fff00",
-					"fontStyle": "bold"
+					// "fontStyle": "bold"
 				}
 			},
 			{
@@ -318,7 +318,7 @@
 	// Configuraciones de parejas de corchetes
 	"editor.bracketPairColorization.enabled": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.matchBrackets": "always",
+	"editor.matchBrackets": false,
 	// Configuración de segmentación de palabras
 	"editor.wordSegmenterLocales": "es-MX",
 	// Configuraciones de edición vinculada y cierre de etiquetas
