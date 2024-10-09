@@ -8,7 +8,7 @@
 	"editor.wordBasedSuggestions": "off",
 	// Configuración del panel lateral
 	"workbench.sideBar.location": "right",
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "material-icon-theme",
 	"workbench.productIconTheme": "bootstrap-product-icons",
 	// Configuraciones de fuente
 	"editor.fontFamily": "Dank Mono SemiBold",
@@ -35,7 +35,7 @@
 	"prettier.trailingComma": "all",
 	"prettier.useTabs": true,
 	// Configuración del área de trabajo
-	"window.title": "${activeFolderShort} // ${activeEditorShort}",
+	"window.title": "${activeFolderShort} / ${activeEditorShort}",
 	"workbench.editor.enablePreviewFromQuickOpen": false,
 	"workbench.editor.openPositioning": "last",
 	"workbench.editor.wrapTabs": true,
@@ -191,14 +191,14 @@
 			{
 				"scope": "keyword.operator",
 				"settings": {
-					"foreground": "#ff0000",
+					"foreground": "#00ff15",
 					"fontStyle": "bold"
 				}
 			},
 			{
 				"scope": "keyword.operator.assignment",
 				"settings": {
-					"foreground": "#ff6600",
+					"foreground": "#ce6d2d",
 					"fontStyle": "bold"
 				}
 			},
@@ -259,7 +259,7 @@
 				],
 				"settings": {
 					"foreground": "#2fff00",
-					// "fontStyle": "bold"
+					"fontStyle": "bold"
 				}
 			},
 			{
@@ -281,7 +281,7 @@
 			{
 				"scope": "variable.language",
 				"settings": {
-					"foreground": "#ff7301cd",
+					"foreground": "#ff7300bd",
 					"fontStyle": "bold"
 				}
 			},
@@ -303,7 +303,7 @@
 	"editor.hideCursorInOverviewRuler": true,
 	// Configuración de acciones de código
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": "always"
+		"source.organizeImports": "never",
 	},
 	"editor.codeActionWidget.includeNearbyQuickFixes": false,
 	// Configuraciones de cierre automático
@@ -318,7 +318,7 @@
 	// Configuraciones de parejas de corchetes
 	"editor.bracketPairColorization.enabled": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.matchBrackets": false,
+	"editor.matchBrackets": "never",
 	// Configuración de segmentación de palabras
 	"editor.wordSegmenterLocales": "es-MX",
 	// Configuraciones de edición vinculada y cierre de etiquetas
@@ -326,8 +326,8 @@
 	// Configuraciones adicionales
 	"editor.inlineSuggest.enabled": true,
 	"editor.scrollBeyondLastLine": false,
-	"editor.wordWrapColumn": 80,
-	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 130,
+	"editor.wordWrap": "wordWrapColumn",
 	"editor.multiCursorPaste": "full",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.defaultColorDecorators": false,
@@ -339,7 +339,7 @@
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
 	"[blade]": {
-		"editor.defaultFormatter": "shufo.vscode-blade-formatter"
+		"editor.defaultFormatter": "amirmarmul.laravel-blade-vscode"
 	},
 	// Configuraciones de Python
 	"pythonIndent.keepHangingBracketOnLine": true,
@@ -382,7 +382,6 @@
 	"terminal.integrated.cursorWidth": 2,
 	"terminal.integrated.accessibleViewPreserveCursorPosition": true,
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
-	"git.showProgress": false,
 	"git.suggestSmartCommit": false,
 	"git.untrackedChanges": "hidden",
 	"git.confirmSync": false,
@@ -402,12 +401,18 @@
 	"search.exclude": {
 		"**/node_modules": true,
 		"**/bower_components": true,
-		"**/dist": true
+		"**/dist": true,
+		"**/path/to/other/project": true
 	},
 	"window.dialogStyle": "custom",
 	"editor.lightbulb.enabled": "on",
 	"bladeFormatter.format.wrapLineLength": 90,
 	"bladeFormatter.format.indentInnerHtml": true,
 	"bladeFormatter.format.indentSize": 2,
-	"window.commandCenter": false
+	"window.commandCenter": false,
+	"workbench.startupEditor": "none",
+	"explorer.confirmDragAndDrop": false,
+	"editor.definitionLinkOpensInPeek": true,
+	"workbench.editor.closeOnFileDelete": true,
+	"vsicons.dontShowNewVersionMessage": true
 }
