@@ -6,12 +6,14 @@
 	"editor.tabCompletion": "on",
 	"editor.scrollbar.vertical": "auto",
 	"editor.wordBasedSuggestions": "off",
-	// Configuración del panel lateral
-	"workbench.sideBar.location": "right",
+	// "editor.renderWhitespace": "all",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.productIconTheme": "bootstrap-product-icons",
 	// Configuraciones de fuente
-	"editor.fontFamily": "Dank Mono SemiBold",
+	"editor.fontFamily": "Host Grotesk",
+	"editor.letterSpacing": 0.7,
+	"editor.insertSpaces": true,
+	"editor.tabSize": 4,
 	"editor.fontWeight": 400,
 	"editor.fontLigatures": true,
 	"editor.fontSize": 13,
@@ -30,7 +32,7 @@
 	"editor.formatOnType": true,
 	"prettier.bracketSameLine": true,
 	"prettier.endOfLine": "auto",
-	"prettier.insertPragma": true,
+	"prettier.insertPragma": false,
 	"prettier.proseWrap": "always",
 	"prettier.trailingComma": "all",
 	"prettier.useTabs": true,
@@ -240,7 +242,7 @@
 				],
 				"settings": {
 					"foreground": "#00ffea",
-					// "fontStyle": ""
+					"fontStyle": "bold"
 				}
 			},
 			{
@@ -249,7 +251,7 @@
 				],
 				"settings": {
 					"foreground": "#03ff03",
-					"fontStyle": ""
+					// "fontStyle": "bold"
 				}
 			},
 			{
@@ -289,7 +291,7 @@
 				"scope": "punctuation.definition.parenthesis",
 				"settings": {
 					"foreground": "#00ff1e",
-					// "fontStyle": "bold"
+					"fontStyle": "bold"
 				}
 			}
 		]
