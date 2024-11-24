@@ -10,12 +10,12 @@
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.productIconTheme": "bootstrap-product-icons",
 	// Configuraciones de fuente
-	"editor.fontFamily": "Host Grotesk",
-	"editor.letterSpacing": 0.7,
+	"editor.fontFamily": "Poppins",
+	"editor.letterSpacing": 1,
 	"editor.insertSpaces": true,
-	"editor.tabSize": 4,
+	"editor.tabSize": 2,
 	"editor.fontWeight": 400,
-	"editor.fontLigatures": true,
+	"editor.fontLigatures": false,
 	"editor.fontSize": 13,
 	// Configuraciones de guardado de archivos
 	"files.autoSave": "onFocusChange",
@@ -26,16 +26,30 @@
 	"editor.guides.bracketPairs": true,
 	"editor.guides.bracketPairsHorizontal": false,
 	"editor.guides.highlightActiveIndentation": true,
-	// Configuraciones de formato
+	// Configuraciones de Prettier y Eslint
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnType": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": false,
+	"prettier.bracketSpacing": false,
+	"prettier.printWidth": 80,
+	"prettier.arrowParens": "always",
+	"prettier.endOfLine": "lf",
+	"prettier.semi": true,
+	"prettier.trailingComma": "none",
+	"prettier.proseWrap": "never",
 	"prettier.bracketSameLine": true,
-	"prettier.endOfLine": "auto",
+	"prettier.jsxSingleQuote": true,
+	"prettier.htmlWhitespaceSensitivity": "ignore",
 	"prettier.insertPragma": false,
-	"prettier.proseWrap": "always",
-	"prettier.trailingComma": "all",
-	"prettier.useTabs": true,
+	// Configuraciones de formato
 	// Configuración del área de trabajo
 	"window.title": "${activeFolderShort} / ${activeEditorShort}",
 	"workbench.editor.enablePreviewFromQuickOpen": false,
@@ -86,9 +100,18 @@
 			"tag": ".",
 			"color": "#ffffff",
 			"strikethrough": false,
+			"underline": true,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "...",
+			"color": "#98C379",
+			"strikethrough": false,
 			"underline": false,
 			"backgroundColor": "transparent",
-			"bold": true,
+			"bold": false,
 			"italic": false
 		},
 		{
@@ -172,7 +195,7 @@
 		"titleBar.inactiveForeground": "#0084ff",
 	},
 	"explorer.decorations.colors": true,
-	"explorer.decorations.badges": true,
+	"explorer.decorations.badges": false,
 	// Configuración de resaltado de código
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
@@ -304,23 +327,20 @@
 	"editor.overviewRulerBorder": false,
 	"editor.hideCursorInOverviewRuler": true,
 	// Configuración de acciones de código
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": "never",
-	},
 	"editor.codeActionWidget.includeNearbyQuickFixes": false,
 	// Configuraciones de cierre automático
 	"editor.autoClosingBrackets": "always",
 	"editor.autoClosingDelete": "always",
-	"editor.autoIndent": "full",
+	"editor.autoIndent": "none",
 	// Configuraciones de plegado de código
-	"editor.showFoldingControls": "always",
+	"editor.showFoldingControls": "mouseover",
 	"editor.glyphMargin": true,
 	"editor.folding": true,
 	"editor.foldingHighlight": true,
 	// Configuraciones de parejas de corchetes
 	"editor.bracketPairColorization.enabled": true,
-	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.matchBrackets": "never",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+	"editor.matchBrackets": "always",
 	// Configuración de segmentación de palabras
 	"editor.wordSegmenterLocales": "es-MX",
 	// Configuraciones de edición vinculada y cierre de etiquetas
@@ -332,7 +352,7 @@
 	"editor.wordWrap": "wordWrapColumn",
 	"editor.multiCursorPaste": "full",
 	"editor.multiCursorModifier": "ctrlCmd",
-	"editor.defaultColorDecorators": false,
+	"editor.defaultColorDecorators": true,
 	// Configuración de edición de JSON y PHP
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
@@ -357,7 +377,7 @@
 	"security.workspace.trust.untrustedFiles": "open",
 	// Otras configuraciones
 	"editor.experimentalWhitespaceRendering": "font",
-	"notebook.defaultFormatter": "esbenp.prettier-vscode",
+	"notebook.defaultFormatter": "vscode.typescript-language-features",
 	"notebook.output.minimalErrorRendering": true,
 	"html.format.templating": true,
 	"explorer.confirmDelete": false,
@@ -416,5 +436,11 @@
 	"explorer.confirmDragAndDrop": false,
 	"editor.definitionLinkOpensInPeek": true,
 	"workbench.editor.closeOnFileDelete": true,
-	"vsicons.dontShowNewVersionMessage": true
+	"vsicons.dontShowNewVersionMessage": true,
+	"workbench.editorAssociations": {
+		"*.dll": "default"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 }
