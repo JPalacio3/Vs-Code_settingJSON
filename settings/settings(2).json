@@ -1,0 +1,86 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "sideBar.background": "#000000",
+        "activityBar.background": "#000000",
+        "statusBar.background": "#000000",
+        "activityBar.activeBorder": "#00ff1a",
+        "activityBar.foreground": "#00ff1a",
+        "activityBar.activeBackground": "#000000",
+        "activityBar.inactiveForeground": "#009619",
+        "activityBarTop.activeBackground": "#000000",
+        "list.activeSelectionForeground": "#00ff00", // Color para archivos activos
+        "list.focusBackground": "#000000",
+        "list.inactiveSelectionForeground": "#2bff00", // Color para archivos inactivos
+        "list.activeSelectionBackground": "#04395e",
+        "list.deemphasizedForeground": "#04395e",
+        "list.hoverBackground": "#000000", // Color de fondo al pasar el cursor
+        "searchEditor.findMatchBackground": "#00ff1a",
+        "list.hoverForeground": "#5eff00", // Color para archivos al pasar el cursor
+        "list.dropBackground": "#1eff00",
+        "titleBar.activeBackground": "#000000", // Color de fondo para la barra de menús activa
+        "titleBar.inactiveBackground": "#000000", // Color de fondo para la barra de menús inactiva
+        "titleBar.inactiveForeground": "#00ff1a",
+        "panelTitle.inactiveForeground": "#000000",
+        "tab.activeBackground": "#00010e", // Color de fondo para la pestaña activa
+        "tab.inactiveBackground": "#000000", // Color de fondo para las pestañas inactivas
+        "tab.activeForeground": "#00ff1a",
+        // "tab.hoverBorder": "#000000",
+        "tab.border": "#000000",
+        "tab.hoverBackground": "#000000",
+        "tab.hoverForeground": "#00ff1a",
+        "tab.inactiveForeground": "#00b982",
+        "menu.background": "#000000", // Color de fondo para el menú de configuraciones
+        "menu.foreground": "#00bb1f", // Color de las letras en el menú de configuraciones
+        "menu.selectionBackground": "#000000",
+        "menubar.selectionForeground": "#2bff00",
+        "menubar.selectionBackground": "#1a228f", // Color de fondo para el menú de configuraciones
+        "sideBar.foreground": "#00a71c",
+        "sideBarTitle.foreground": "#ffffff",
+        "sideBarStickyScroll.background": "#1a22a1",
+        "sideBar.border": "#009619",
+    },
+    "editor.minimap.enabled": false,
+    "editor.columnSelection": true,
+    "editor.defaultFormatter": "vscode.configuration-editing",
+    "editor.experimentalWhitespaceRendering": "off",
+    "editor.guides.bracketPairs": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "editor.wordWrapColumn": 100,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.defaultBinaryEditor": "default",
+    "workbench.editor.showTabs": "multiple",
+    "window.commandCenter": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.wrapTabs": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.newWindowProfile": "Predeterminado",
+    "editor.formatOnSave": true,
+    "files.trimFinalNewlines": true,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "less.format.spaceAroundSelectorSeparator": true,
+    "scss.format.spaceAroundSelectorSeparator": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "breadcrumbs.showNamespaces": false,
+    "scm.diffDecorationsIgnoreTrimWhitespace": "true",
+    "files.trimTrailingWhitespace": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace"
+}
