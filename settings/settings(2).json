@@ -4,7 +4,7 @@
         "sideBar.background": "#000000",
         "activityBar.background": "#000000",
         "statusBar.background": "#000000",
-        "activityBar.activeBorder": "#00ff1a",
+        "activityBar.activeBorder": "#7cff11",
         "activityBar.foreground": "#00ff1a",
         "activityBar.activeBackground": "#000000",
         "activityBar.inactiveForeground": "#009619",
@@ -16,10 +16,11 @@
         "list.deemphasizedForeground": "#04395e",
         "list.hoverBackground": "#000000", // Color de fondo al pasar el cursor
         "searchEditor.findMatchBackground": "#00ff1a",
-        "list.hoverForeground": "#5eff00", // Color para archivos al pasar el cursor
-        "list.dropBackground": "#1eff00",
+        "list.hoverForeground": "#09ff00", // Color para archivos al pasar el cursor
+        "list.dropBackground": "#0c160a",
         "titleBar.activeBackground": "#000000", // Color de fondo para la barra de menús activa
         "titleBar.inactiveBackground": "#000000", // Color de fondo para la barra de menús inactiva
+        "titleBar.activeForeground": "#57bb68",
         "titleBar.inactiveForeground": "#00ff1a",
         "panelTitle.inactiveForeground": "#000000",
         "tab.activeBackground": "#00010e", // Color de fondo para la pestaña activa
@@ -28,15 +29,16 @@
         // "tab.hoverBorder": "#000000",
         "tab.border": "#000000",
         "tab.hoverBackground": "#000000",
-        "tab.hoverForeground": "#00ff1a",
-        "tab.inactiveForeground": "#00b982",
+        "tab.hoverForeground": "#2bff00",
+        "tab.inactiveForeground": "#57bb68",
         "menu.background": "#000000", // Color de fondo para el menú de configuraciones
         "menu.foreground": "#00bb1f", // Color de las letras en el menú de configuraciones
         "menu.selectionBackground": "#000000",
+        // "menubar.selectionBorder": "#2bff00",
         "menubar.selectionForeground": "#2bff00",
-        "menubar.selectionBackground": "#1a228f", // Color de fondo para el menú de configuraciones
-        "sideBar.foreground": "#00a71c",
-        "sideBarTitle.foreground": "#ffffff",
+        "menubar.selectionBackground": "#000000", // Color de fondo para el menú de configuraciones
+        "sideBar.foreground": "#bdcfb9",
+        "sideBarTitle.foreground": "#64d364",
         "sideBarStickyScroll.background": "#1a22a1",
         "sideBar.border": "#009619",
     },
@@ -82,5 +84,6 @@
     "breadcrumbs.showNamespaces": false,
     "scm.diffDecorationsIgnoreTrimWhitespace": "true",
     "files.trimTrailingWhitespace": true,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace"
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "workbench.iconTheme": "material-icon-theme"
 }
