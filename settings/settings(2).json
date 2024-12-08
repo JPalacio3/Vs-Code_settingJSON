@@ -7,7 +7,7 @@
         "activityBar.activeBorder": "#7cff11",
         "activityBar.foreground": "#00ff1a",
         "activityBar.activeBackground": "#000000",
-        "activityBar.inactiveForeground": "#009619",
+        "activityBar.inactiveForeground": "#047726",
         "activityBarTop.activeBackground": "#000000",
         "list.activeSelectionForeground": "#00ff00", // Color para archivos activos
         "list.focusBackground": "#000000",
@@ -16,7 +16,7 @@
         "list.deemphasizedForeground": "#04395e",
         "list.hoverBackground": "#000000", // Color de fondo al pasar el cursor
         "searchEditor.findMatchBackground": "#00ff1a",
-        "list.hoverForeground": "#09ff00", // Color para archivos al pasar el cursor
+        "list.hoverForeground": "#33ff00", // Color para archivos al pasar el cursor
         "list.dropBackground": "#0c160a",
         "titleBar.activeBackground": "#000000", // Color de fondo para la barra de menús activa
         "titleBar.inactiveBackground": "#000000", // Color de fondo para la barra de menús inactiva
@@ -26,7 +26,7 @@
         "tab.activeBackground": "#00010e", // Color de fondo para la pestaña activa
         "tab.inactiveBackground": "#000000", // Color de fondo para las pestañas inactivas
         "tab.activeForeground": "#00ff1a",
-        // "tab.hoverBorder": "#000000",
+        "tab.hoverBorder": "#303646",
         "tab.border": "#000000",
         "tab.hoverBackground": "#000000",
         "tab.hoverForeground": "#2bff00",
@@ -35,7 +35,7 @@
         "menu.foreground": "#00bb1f", // Color de las letras en el menú de configuraciones
         "menu.selectionBackground": "#000000",
         // "menubar.selectionBorder": "#2bff00",
-        "menubar.selectionForeground": "#2bff00",
+        "menubar.selectionForeground": "#73ff00",
         "menubar.selectionBackground": "#000000", // Color de fondo para el menú de configuraciones
         "sideBar.foreground": "#bdcfb9",
         "sideBarTitle.foreground": "#64d364",
@@ -85,5 +85,11 @@
     "scm.diffDecorationsIgnoreTrimWhitespace": "true",
     "files.trimTrailingWhitespace": true,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
-    "workbench.iconTheme": "material-icon-theme"
+    "editor.letterSpacing": 0,
+    // "editor.fontWeight": 400,
+    "editor.fontLigatures": false,
+    "editor.fontSize": 13.5,
+    "editor.insertSpaces": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.occurrencesHighlight": "off",
 }
