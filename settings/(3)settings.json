@@ -1,19 +1,18 @@
 {
 	"editor.tabCompletion": "on",
 	"editor.guides.indentation": true,
-	"editor.fontFamily": "Cousine",
+	"editor.guides.highlightActiveIndentation": true,
 	"editor.fontLigatures": true,
-	"editor.insertSpaces": true,
+	"editor.overviewRulerBorder": false,
+	"editor.hideCursorInOverviewRuler": true,
 	"editor.guides.highlightActiveBracketPair": true,
 	"editor.autoClosingQuotes": "always",
 	"editor.guides.bracketPairs": false,
 	"editor.autoIndent": "full",
-	"editor.minimap.enabled": false,
 	"explorer.confirmDelete": false,
 	"workbench.editor.enablePreview": false,
 	"chat.commandCenter.enabled": false,
 	"workbench.navigationControl.enabled": false,
-	"window.commandCenter": false,
 	"files.autoSave": "onFocusChange",
 	"editor.wordWrap": "on",
 	"editor.autoClosingOvertype": "always",
@@ -24,20 +23,14 @@
 	"files.trimFinalNewlines": true,
 	"editor.formatOnPaste": true,
 	"window.titleBarStyle": "custom",
-	"window.title": "",
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
 	"workbench.iconTheme": "material-icon-theme",
-	"editor.scrollbar.horizontal": "auto",
-	"editor.scrollbar.vertical": "auto",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"editor.scrollBeyondLastLine": false,
 	"workbench.editor.showTabs": "multiple",
-	"workbench.colorTheme": "Platzi Theme Classic",
-
 	"editor.formatOnSave": true,
 	"prettier.bracketSpacing": true,
 	"prettier.bracketSameLine": true,
@@ -49,15 +42,13 @@
 	"prettier.semi": true,
 	"prettier.htmlWhitespaceSensitivity": "strict",
 	"security.workspace.trust.untrustedFiles": "open",
-	"editor.letterSpacing": 0,
 	"editor.padding.top": 20,
 	"editor.lineHeight": 20,
-	"editor.fontSize": 13,
+	"editor.fontSize": 12.5,
 	"editor.glyphMargin": true,
 	"editor.lineNumbers": "on",
 	"editor.padding.bottom": 20,
 	"editor.stickyTabStops": true,
-	"workbench.editor.wrapTabs": true,
 	"breadcrumbs.showArrays": false,
 	"breadcrumbs.showBooleans": false,
 	"breadcrumbs.showClasses": false,
@@ -83,13 +74,13 @@
 	"breadcrumbs.showMethods": false,
 	"breadcrumbs.showInterfaces": false,
 	"breadcrumbs.showFunctions": false,
-
 	"workbench.colorCustomizations": {
+		// "editor.background": "#0c052750",
 		"sideBar.border": "#223323",
-		// "sideBySideEditor.verticalBorder": "#8cc295",
-		"breadcrumb.foreground": "#00ff15",
+		"breadcrumbs.enabled": true,
+		"breadcrumb.foreground": "#146bb3",
 		"breadcrumb.background": "#000000",
-		"breadcrumb.focusForeground": "#0fd6d6",
+		"breadcrumb.focusForeground": "#3998cf",
 		"breadcrumb.activeSelectionForeground": "#00ffdd",
 		"sideBar.foreground": "#6bad76",
 		"sideBar.background": "#080220",
@@ -106,6 +97,132 @@
 		"tab.activeForeground": "#15ff00",
 		"tab.inactiveForeground": "#309b59",
 		"tab.hoverForeground": "#00ff22",
-		"tab.hoverBackground": "#1c1c3a"
-	}
+		"tab.hoverBackground": "#1c1c3a",
+		"css.format.spaceAroundSelectorSeparator": true,
+		"less.format.spaceAroundSelectorSeparator": true,
+		"scss.format.spaceAroundSelectorSeparator": true,
+		"files.trimTrailingWhitespace": true
+	},
+	"editor.tabSize": 2,
+	"editor.indentSize": 2,
+	"editor.insertSpaces": true,
+	"editor.cursorBlinking": "expand",
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"workbench.tree.indent": 4,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.defaultColorDecorators": "always",
+	"editor.defaultFormatter": "GitHub.copilot",
+	"editor.overtypeCursorStyle": "line",
+	"prettier.proseWrap": "always",
+	"workbench.sideBar.location": "right",
+	"editor.renderWhitespace": "none",
+	"editor.definitionLinkOpensInPeek": true,
+	"editor.letterSpacing": 0.5,
+	"editor.fontFamily": "Cascadia Code",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "punctuation.definition.string.begin",
+				"settings": {
+					"foreground": "#ffffff",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "punctuation.definition.string.end",
+				"settings": {
+					"foreground": "#ffffff",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "keyword.operator",
+				"settings": {
+					"foreground": "#c8ff00",
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": "keyword.operator.assignment",
+				"settings": {
+					"foreground": "#ffee00",
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": "punctuation.separator.colon",
+				"settings": {
+					"foreground": "#ff6600",
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": "punctuation.terminator.statement",
+				"settings": {
+					"foreground": "#ffff00",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "punctuation.separator.continuation",
+				"settings": {
+					"foreground": "#ff6600",
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": "punctuation",
+				"settings": {
+					"foreground": "#ffffff",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"keyword.other.new",
+					"keyword.other",
+					"keyword.control",
+					"entity.name.function",
+					"support.function"
+				],
+				"settings": {
+					"foreground": "#48b964",
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": ["variable"],
+				"settings": {
+					"foreground": "#03ff03"
+					// "fontStyle": "bold"
+				}
+			}
+		]
+	},
+	"editor.linkedEditing": true,
+	"window.commandCenter": false,
+	"window.title": "> / ${activeEditorMedium} / ",
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.editor.openPositioning": "last",
+	"workbench.editor.wrapTabs": true,
+	"workbench.editor.centeredLayoutFixedWidth": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"diffEditor.experimental.showEmptyDecorations": false,
+	"diffEditor.codeLens": true,
+	"diffEditor.maxFileSize": 0,
+	"diffEditor.wordWrap": "on",
+	"editor.minimap.maxColumn": 1500,
+	"editor.minimap.sectionHeaderLetterSpacing": 150,
+	"editor.minimap.enabled": false,
+	"editor.suggest.localityBonus": true,
+	"editor.suggest.preview": true,
+	"files.defaultLanguage": "${activeEditorLanguage}",
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "Platzi Theme Green Mode"
 }
