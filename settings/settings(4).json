@@ -50,7 +50,7 @@
 	// ...otras configuraciones...
 	"workbench.colorCustomizations": {
 		// Colores para las líneas de indentación
-		"editorIndentGuide.background1": "#5c5c5c66", // líneas inactivas
+		"editorIndentGuide.background1": "#5c5c5c40", // líneas inactivas
 		"editorIndentGuide.activeBackground1": "#00ff7351", // línea activa
 		"editor.lineHighlightBackground": "#082536",
 		"editor.lineHighlightBorder": "default",
@@ -108,14 +108,14 @@
 		"menubar.hoverBackground": "#00ff00",
 		"titleBar.activeForeground": "#00a6ff",
 		"titleBar.inactiveForeground": "#0084ff",
-		"editorGroup.border": "#383f7d",
+		"editorGroup.border": "#1b2373",
 		"editor.background": "#04131d"
 	},
 	"editor.linkedEditing": true,
 	"notebook.stickyScroll.enabled": true,
 	"workbench.startupEditor": "none",
 	"window.systemColorTheme": "dark",
-	"workbench.iconTheme": "symbols",
+	"workbench.iconTheme": "material-icon-theme",
 	"workbench.editor.autoLockGroups": {
 		"vscode.audioPreview": true
 	},
@@ -131,10 +131,9 @@
 	"explorer.confirmDelete": false,
 	"emmet.triggerExpansionOnTab": true,
 	"prettier.useTabs": true,
-	"workbench.editor.tabSizing": "fixed",
 	"terminal.integrated.tabs.focusMode": "singleClick",
 	"editor.guides.indentation": true,
-	"window.title": "${activeFolderShort} / ${activeEditorShort}",
+	"window.title": "${activeEditorMedium}",
 	"workbench.editor.enablePreviewFromQuickOpen": false,
 	"workbench.editor.openPositioning": "last",
 	"workbench.editor.centeredLayoutFixedWidth": true,
@@ -192,7 +191,6 @@
 	"workbench.editor.tabSizingFixedMinWidth": 120,
 	"workbench.editor.titleScrollbarSizing": "large",
 	"html.format.wrapAttributes": "force-expand-multiline",
-	"window.density.editorTabHeight": "compact",
 	"editor.tabCompletion": "on",
 	"editor.tabFocusMode": true,
 	"explorer.sortOrder": "filesFirst",
@@ -224,5 +222,7 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.guides.bracketPairs": "active",
 	"editor.guides.highlightActiveBracketPair": false,
-	"editor.renderLineHighlight": "all"
+	"editor.renderLineHighlight": "all",
+	"breadcrumbs.enabled": false,
+	"window.density.editorTabHeight": "compact"
 }
