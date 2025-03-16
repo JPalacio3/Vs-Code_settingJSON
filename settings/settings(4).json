@@ -5,7 +5,6 @@
 	"scm.diffDecorations": "none",
 	"files.autoSave": "afterDelay",
 	"editor.formatOnPaste": true,
-	"editor.formatOnSave": true,
 	"editor.formatOnType": true,
 	"editor.tabSize": 2,
 	"files.associations": {
@@ -224,5 +223,10 @@
 	"editor.guides.highlightActiveBracketPair": false,
 	"editor.renderLineHighlight": "all",
 	"breadcrumbs.enabled": false,
-	"window.density.editorTabHeight": "compact"
+	"window.density.editorTabHeight": "compact",
+	"editor.columnSelection": true,
+	"notebook.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"notebook.formatOnCellExecution": true,
+	"notebook.formatOnSave.enabled": true
 }
